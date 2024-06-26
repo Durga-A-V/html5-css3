@@ -47,6 +47,9 @@
     height:100px;
   }
   @media screen and (max-width:576px) {
+    .form .btn{
+      order:2;
+    }
     .about-us-fluid{
       height:auto;
       padding: 20px;
@@ -81,6 +84,7 @@
     }
     .navbar-toggler{
       margin-right: 20px;
+      order: 3;
     }
     .navbar-collapse{
       text-align: center;
