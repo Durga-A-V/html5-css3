@@ -3,6 +3,10 @@
      height:800px;
      
 }
+.append{
+  width: 99%;
+}
+
 
 .col-1 img{
     width:60%;
@@ -14,7 +18,7 @@
 }
 .about-container1{
     width:50%;
-    height:800px;
+    height:auto;
     display: inline-block;
 }
 .about-container2{
@@ -47,13 +51,13 @@
     height:100px;
   }
   @media screen and (max-width:576px) {
-    .form .btn{
-      order:2;
-    }
+    
+     
     .about-us-fluid{
       height:auto;
       padding: 20px;
     }
+    
     .about-container1{
       width:100%;
       height:auto;
@@ -84,21 +88,21 @@
     }
     .navbar-toggler{
       margin-right: 20px;
-      order: 3;
     }
     .navbar-collapse{
-      text-align: center;
+      text-align: start;
     }
     .input-group{
       width:80%;
       margin: 0 auto;
     }
-    text-center{
+    .text-center{
       padding:10px;
     }
     
   } 
-
-    
+ .fr{
+float: right;
+ } 
   
   
