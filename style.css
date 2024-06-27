@@ -64,66 +64,118 @@
     height:100px;
     
   }
-  @media screen and (max-width:375px) {
-    .client-fluid{
-      height:80px;
-      width:100%;
+  /* Add this to your CSS file */
+
+@media (max-width: 375px) {
+    .navbar-brand, .navbar-nav .nav-link, .navbar-toggler {
+        font-size: 0.8rem;
     }
 
-     
-    .about-us-fluid{
-      height:auto;
-      padding: 20px;
+    .header-container .display-5 {
+        font-size: 1.5rem;
     }
-    .image{
-       background-size:120%;
-       
+
+    .header-container p {
+        font-size: 0.9rem;
     }
-    
-    .about-container1{
-      width:100%;
-      height:auto;
-      display: block;
-      margin-bottom: 20px;
+
+    .input-group {
+        width: 90%;
+        margin-left: 5%;
     }
-    
-    .append-website{
-      width: 100%;
+
+    .about-container1 p, .about-container2 .card-text {
+        font-size: 0.8rem;
     }
-    .append{
-      width:auto;
+
+    .about-container2 {
+        left: 10px;
+        top: 20px !important;
+        width: 90%;
     }
-    .counts{
-      height: auto;
-      padding: 20px;
+
+    .counts h2, .counts h3 {
+        font-size: 1rem;
     }
-    .service{
-      height:auto;
-      padding: 20px;
+
+    .service, .service1 {
+        padding: 10px;
     }
-    .service1{
-      height:auto;
-      padding: 20px;
+
+    .service1 .col-3, .service1 .col-4 {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #32353a;
     }
-    .features{
-      height:auto;
-      padding: 20px;
+
+    .counts {
+        padding: 10px;
     }
-    .navbar-toggler{
-      margin-right: 20px;
+}
+/* Add this to your CSS file */
+
+@media (max-width: 576px) {
+    .navbar-brand, .navbar-nav .nav-link, .navbar-toggler {
+        font-size: 1rem;
     }
-    .navbar-collapse{
-      text-align: start;
+
+    .header-container .display-5 {
+        font-size: 2rem;
     }
-    .input-group{
-      width:80%;
-      margin: 0 auto;
+
+    .header-container p {
+        font-size: 1rem;
     }
-    .text-center{
-      padding:10px;
+
+    .input-group {
+        width: 80%;
+        margin-left: 10%;
     }
-    
-  } 
+
+    .about-container1 p, .about-container2 .card-text {
+        font-size: 0.9rem;
+    }
+
+    .about-container2 {
+        left: 20px;
+        top: 20px !important;
+        width: 90%;
+    }
+
+    .counts h2, .counts h3 {
+        font-size: 1.2rem;
+    }
+
+    .service, .service1 {
+        padding: 15px;
+    }
+
+    .service1 .col-3, .service1 .col-4 {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #32353a;
+    }
+
+    .counts {
+        padding: 20px;
+    }
+
+    .icons {
+        width: 20%;
+        height: 40px;
+    }
+
+    .about-container1 button, .about-container2 button {
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .client-fluid .col-1 img {
+        width: 50%;
+        height: 30px;
+    }
+}
+
  .fr{
 float: right;
  } 
