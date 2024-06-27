@@ -1,7 +1,7 @@
  .image  {
      background-image: url(hero-bg.jpg);
      height:800px;
-     
+     background-size: cover;
 }
 .append{
   width: 99%;
@@ -13,17 +13,30 @@
     height:40px;
 }
 .about-us-fluid{
-    height:500px;
+    height:800px;
     background-color: #dee2e6;
+    position: relative;
 }
 .about-container1{
-    width:50%;
+    width:100%;
     height:auto;
     display: inline-block;
+    position: absolute;
 }
 .about-container2{
-    width:50%;
+    
     display: inline-block;
+    position: absolute;
+    left: 650px;
+    top: 50px !important;
+    width:40%;
+    height:400px;
+}
+.icons{
+  width:25%;
+  height:50px;
+  border:1px solid black;
+  border-radius: 100%;
 }
 .append-website{
     width:100%;
@@ -49,16 +62,22 @@
   .features{
     width:100%;
     height:100px;
+    
   }
-  @media screen and (max-width:576px) {
+  @media screen and (max-width:375px) {
     .client-fluid{
       height:80px;
       width:100%;
     }
+
      
     .about-us-fluid{
       height:auto;
       padding: 20px;
+    }
+    .image{
+       background-size:120%;
+       
     }
     
     .about-container1{
@@ -67,11 +86,12 @@
       display: block;
       margin-bottom: 20px;
     }
-    .about-container2{
-      display:none;
-    }
+    
     .append-website{
       width: 100%;
+    }
+    .append{
+      width:auto;
     }
     .counts{
       height: auto;
