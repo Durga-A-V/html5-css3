@@ -8,9 +8,9 @@
 }
 
 
-.col-1 img{
-    width:60%;
-    height:40px;
+.col-fluid-1 img{
+    width:30%;
+    height:20px;
 }
 .about-us-fluid{
     height:800px;
@@ -57,24 +57,27 @@
     width:100%;
     height:400px;
     background-image: url(stats-bg.jpg);
+    background-size: cover; 
   }
   
-  .features{
-    width:100%;
-    height:100px;
-    
-  }
+  
   /* Add this to your CSS file */
 
 @media (max-width: 375px) {
     .navbar-brand, .navbar-nav .nav-link, .navbar-toggler {
         font-size: 0.8rem;
     }
-
+    .image{
+        background: size contain;
+    }
+    .header-container{
+        height: 100px;
+        margin: 0px;
+    }
     .header-container .display-5 {
         font-size: 1.5rem;
+    
     }
-
     .header-container p {
         font-size: 0.9rem;
     }
@@ -83,15 +86,35 @@
         width: 90%;
         margin-left: 5%;
     }
-
+    .client-fluid{
+        height:250px;
+    }
+    .row1 div img{
+        width:100%;
+        heigth:20px;
+    }
+    .about-us-fluid{
+      height:1400px;
+    }
+    .btn{
+        padding:20px;
+    }
     .about-container1 p, .about-container2 .card-text {
         font-size: 0.8rem;
     }
 
     .about-container2 {
-        left: 10px;
+        left:20px;
         top: 20px !important;
         width: 90%;
+    }
+    .card{
+        top: 670px;
+        left:0px !important;
+        width:100% !important;
+    }
+    .counts{
+        height:auto;
     }
 
     .counts h2, .counts h3 {
@@ -111,6 +134,10 @@
     .counts {
         padding: 10px;
     }
+    .append{
+        width:99%;
+    }
+
 }
 /* Add this to your CSS file */
 
